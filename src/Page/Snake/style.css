@@ -3,7 +3,8 @@
   margin: 50 auto;
   width: 600px;
   height: 600px;
-  border: 2px solid #000;
+  border: 10px solid #846f5b;
+  background-color: lightgray;
 }
 
 .snake_dot {
@@ -13,6 +14,7 @@
   background-color: #000;
   border: 1px solid #fff;
   z-index: 2;
+  border-radius: 50%;
 }
 
 .snake_food {
@@ -22,4 +24,5 @@
   background-color: red;
   border: 1px solid #fff;
   z-index: 1;
+  border-radius: 50%;
 }
